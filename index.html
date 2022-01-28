@@ -1,69 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="CSS/style.css" rel="stylesheet" />
-    <title>Marvel</title>
+    <link rel="shortcut icon" href="./img/icon-d-1.png" type="image/x-icon" />
+    <!-- Slick para o carousel -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+    />
+
+    <title>Marvel Universe</title>
   </head>
+
   <body>
-    <div class="topItems">
-      <h6 class="home">Marvel Universe</h6>
-      <table>
-        <td class="captain">
-          Captain America <br />
-          (캡틴 아메리카)
-        </td>
-        <td class="iron">Iron Man <br />(아이언맨)</td>
-        <td class="thor">Thor <br />(토르)</td>
-        <td class="hulk">Hulk <br />(헐크)</td>
-        <td class="widow">Black Widow <br />(블랙 위도우)</td>
-        <td class="ant">Ant Man <br />(앤트맨)</td>
-        <td class="panther">Black Panther <br />(블랙 팬서)</td>
-        <td class="spyder">Spyder Man <br />(스파이더맨)</td>
-      </table>
-      <div class="middleText">
-        <h2>등장인물 소개</h2>
-        <h3>Introduce About Characters</h3>
+    <!-- Semantico!!!!!!!!!!!! -->
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="IMG/marvel.png" alt="Disney+" class="logo" id="home"
+              /></a>
+            </li>
+            <li>
+              <i class="fas fa-home"></i>
+              <a href="#" class="style" id="Home">홈</a>
+            </li>
+            <li>
+              <i class="fas fa-tape"></i>
+              <a href="#" class="style" id="movieList">영화목록</a>
+            </li>
+            <li>
+              <i class="fas fa-users"></i>
+              <a href="#" class="style" id="characters">등장인물</a>
+            </li>
+            <li>
+              <i class="fas fa-star"></i>
+              <a href="#" class="style" id="recommand">맞춤추천</a>
+            </li>
+            <li>
+              <i class="fas fa-gamepad"></i>
+              <a href="#" class="style" id="games">게임</a>
+            </li>
+          </ul>
+        </nav>
       </div>
+    </header>
+
+    <div class="middleText">
+      <i class="fas fa-users"></i>
+      <a href="https://www.google.com/" class="middleA">등장인물 페이지</a>
     </div>
-    <div class="middleDescriptions">
-        <dl>
-          <dt>
-            캡틴 아메리카 - 스티브 로저스</dt>
-          <dd>스티브 로저스 설명</dd>
-          <img src="IMG/captain.jpg">
-        <dl>
-          <dt>아이언맨 - 토니 스타크</dt>
-          <dd>토니 스타크 설명</dd>
-          <img src="IMG/iron.jpg">
-        <dl>
-          <dt>토르 - 토르</dt>
-          <dd>토르 설명</dd>
-          <img src="IMG/thor.jpg">
-        <dl>
-          <dt>헐크 - 브루스 배너</dt>
-          <dd>브루스 배너 설명</dd>
-          <img src="IMG/hulk.jpg">
-        <dl>
-          <dt>블랙 위도우 - 나타샤 로마노프</dt>
-          <dd>나타샤 로마노프 설명</dd>
-          <img src="IMG/widow.jpg">
-        <dl>
-          <dt>앤트맨 - 스콧 랭</dt>
-          <dd>스콧 랭 설명</dd>
-          <img src="IMG/ant.jpg">
-        <dl>
-          <dt>블랙 팬서 - 트찰라</dt>
-          <dd>트찰라 설명</dd>
-          <img src="IMG/panther.jpg">
-        <dl>
-          <dt>스파이더맨 - 피터 파커</dt>
-          <dd>피터 파커 설명</dd>
-          <img src="IMG/spyder.jpg">
-        </dl>
-    </div>
-    <script src="JS/topItmes.js"></script>
+
+    <main>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h1>캡틴 아메리카</h1>
+            <img src="IMG/captain.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <h1>아이언맨</h1>
+            <img src="IMG/iron.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <h1>헐크</h1>
+            <img src="IMG/hulk.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <h1>토르</h1>
+            <img src="IMG/thor.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <h1>블랙 위도우</h1>
+            <img src="IMG/widow.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <h1>스파이더맨</h1>
+            <img src="IMG/spyder.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <h1>블랙팬서</h1>
+            <img src="IMG/panther.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <h1>앤트맨</h1>
+            <img src="IMG/ant.jpg" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+      <h1 class="bottomText">
+        Click This Pictures <i class="fas fa-arrow-up"></i>
+      </h1>
+    </main>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/340b8b3293.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script src="JS/swiper.js"></script>
+    <script src="JS/app.js"></script>
   </body>
 </html>
