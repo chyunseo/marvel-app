@@ -106,7 +106,6 @@ header .login {
 }
 
 .swiper-container {
-  margin-top: 100px;
   margin-bottom: 50px;
   width: 80%;
   height: 400px;
@@ -135,10 +134,11 @@ header .login {
 .bottomText {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
   margin-bottom: 100px;
 }
 
-.fa-arrow-up {
+.fa-arrow-down {
   margin-left: 10px;
 }
 
