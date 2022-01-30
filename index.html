@@ -17,7 +17,13 @@
     />
 
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="CSS/charaters.css"
+      <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300&display=swap"
       rel="stylesheet"
@@ -37,9 +43,7 @@
         <nav>
           <ul>
             <li>
-              <a href="#"
-                ><img src="IMG/marvel.png" alt="Disney+" class="logo" id="home"
-              /></a>
+              <a><img src="IMG/marvel.png" class="logo" id="home" /></a>
             </li>
             <li>
               <i class="fas fa-home"></i>
@@ -66,43 +70,42 @@
       </div>
     </header>
 
-    <div class="middleText">
-      <i class="fas fa-users"></i>
-      <a href="https://www.google.com/" class="middleA">등장인물 페이지</a>
-    </div>
-
     <main>
+      <div class="middleText">
+        <i class="fas fa-users"></i>
+        <a href="https://www.google.com/" class="middleA">등장인물 페이지</a>
+      </div>
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-captain">
             <h1>캡틴 아메리카</h1>
             <img src="IMG/captain.jpg" />
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-iron">
             <h1>아이언맨</h1>
             <img src="IMG/iron.jpg" />
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-hulk">
             <h1>헐크</h1>
             <img src="IMG/hulk.jpg" />
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-thor">
             <h1>토르</h1>
             <img src="IMG/thor.jpg" />
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-widow">
             <h1>블랙 위도우</h1>
             <img src="IMG/widow.jpg" />
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-spyder">
             <h1>스파이더맨</h1>
             <img src="IMG/spyder.jpg" />
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-panther">
             <h1>블랙팬서</h1>
             <img src="IMG/panther.jpg" />
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-ant">
             <h1>앤트맨</h1>
             <img src="IMG/ant.jpg" />
           </div>
@@ -116,6 +119,66 @@
         Click This Pictures <i class="fas fa-arrow-up"></i>
       </h1>
     </main>
+
+    <!-- 여기서부터 원래 hidding 된 item들 -->
+
+    <div class="ant-container hidden">
+      <div class="middleText">
+        <i class="fas fa-users"></i>
+        <a href="https://www.google.com/" class="middleA">Ant Man</a>
+      </div>
+    </div>
+
+    <div class="captain-container hidden">
+      <div class="middleText">
+        <i class="fas fa-users"></i>
+        <a href="https://www.google.com/" class="middleA">Captain America</a>
+      </div>
+    </div>
+
+    <div class="hulk-container hidden">
+      <div class="middleText">
+        <i class="fas fa-users"></i>
+        <a href="https://www.google.com/" class="middleA">Hulk</a>
+      </div>
+    </div>
+
+    <div class="iron-container hidden">
+      <div class="middleText">
+        <i class="fas fa-users"></i>
+        <a href="https://www.google.com/" class="middleA">Iron Man</a>
+      </div>
+    </div>
+
+    <div class="panther-container hidden">
+      <div class="middleText">
+        <i class="fas fa-users"></i>
+        <a href="https://www.google.com/" class="middleA">Black Panther</a>
+      </div>
+    </div>
+
+    <div class="spyder-container hidden">
+      <div class="middleText">
+        <i class="fas fa-users"></i>
+        <a href="https://www.google.com/" class="middleA">Spyder Man</a>
+      </div>
+    </div>
+
+    <div class="thor-container hidden">
+      <div class="middleText">
+        <i class="fas fa-users"></i>
+        <a href="https://www.google.com/" class="middleA">Thor</a>
+      </div>
+    </div>
+
+    <div class="widow-container hidden">
+      <div class="middleText">
+        <i class="fas fa-users"></i>
+        <a href="https://www.google.com/" class="middleA">Black Widow</a>
+      </div>
+    </div>
+
+    <!-- script file import part -->
 
     <script
       type="text/javascript"
@@ -135,6 +198,7 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
     <script src="JS/swiper.js"></script>
-    <script src="JS/app.js"></script>
+    <script src="JS/topNavs.js"></script>
+    <script src="JS/characters.js"></script>
   </body>
 </html>

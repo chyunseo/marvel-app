@@ -39,6 +39,10 @@ header nav .logo {
   margin-left: 2em;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 header nav i {
   margin-left: 3em;
   margin-right: 0.6em;
@@ -108,6 +112,7 @@ header .login {
   height: 400px;
 }
 .swiper-slide {
+  cursor: pointer;
   display: flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
   text-align: center;
   align-items: center; /* 위아래 기준 중앙정렬 */
@@ -135,6 +140,10 @@ header .login {
 
 .fa-arrow-up {
   margin-left: 10px;
+}
+
+.hidden {
+  display: none;
 }
 
 /* =================== */
