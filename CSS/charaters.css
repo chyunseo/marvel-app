@@ -1,0 +1,10 @@
+.top-info {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  float: left;
+  text-align: center;
+}
+
+.description-text {
+  font-size: inherit;
+}
