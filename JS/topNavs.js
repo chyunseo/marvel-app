@@ -9,7 +9,7 @@ function onHomes() {
   window.open("https://www.google.com/");
 }
 
-function onMovieList() {} 
+function onMovieList() {}
 function onCharacters() {}
 function onRecommand() {}
 function onGames() {}

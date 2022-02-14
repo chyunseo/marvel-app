@@ -14,8 +14,21 @@
 
 body {
   font-family: "nanumSquare", sans-serif;
-  background: var(--backgroud-disney);
+  background-image: url("../IMG/Marvel_Page_Intro.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-image: url("/IMG/Marvel_Page_Intro.jpeg"); */
+  /* background-size: cover; */
   color: #fff;
+}
+
+main {
+  width: 90%;
+  margin-left: 10vh;
+  background-color: rgba(122, 120, 120, 0.8);
+  /* color: black; */
+  margin-bottom: 10vh;
+  padding-top: 10vh;
 }
 
 header .container {
@@ -95,7 +108,7 @@ header .login {
 
 .middleText {
   display: flex;
-  background-image: url("../IMG/backgroundIMG.png");
+  /* background-image: url("../IMG/backgroundIMG.png"); */
   background-size: auto;
   height: 100px;
   width: 100%;
@@ -105,11 +118,21 @@ header .login {
   font-size: large;
 }
 
-.swiper-container {
-  margin-bottom: 50px;
-  width: 80%;
-  height: 350px;
+.img-container {
+  height: 100vh;
+  background-image: url("../IMG/Marvel_Page_Intro.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding-top: 0;
 }
+
+.swiper-container {
+  width: 80%;
+  height: 60vh;
+}
+
 .swiper-slide {
   cursor: pointer;
   display: flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
@@ -123,7 +146,7 @@ header .login {
   width: 12px;
   height: 12px;
   border: 1px solid pink;
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 .middleA {
@@ -134,7 +157,7 @@ header .login {
 .bottomText {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 15vh;
   margin-bottom: 100px;
 }
 
@@ -144,6 +167,10 @@ header .login {
 
 .hidden {
   display: none;
+}
+
+main img {
+  height: 40vh;
 }
 
 /* =================== */

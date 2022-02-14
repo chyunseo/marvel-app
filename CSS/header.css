@@ -1,0 +1,47 @@
+header nav .logo {
+    width: 75px;
+    margin-left: 2em;
+}
+
+header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    margin-top: 0em;
+    margin-bottom: 2em;
+
+    z-index: 100;
+
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+
+header nav i {
+    color: white;
+    margin-left: 3em;
+    margin-right: 0.6em;
+    text-decoration: none;
+}
+
+header nav a {
+    color: white;
+    margin-right: 10px;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+}
